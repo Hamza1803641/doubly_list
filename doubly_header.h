@@ -13,4 +13,15 @@ Node* previous;
 
 
 };
+void printforward(Node* head)
+{
+    Node* traverser=head;
+
+    while (traverser!=nullptr)
+    {
+        cout<<traverser->value<<" ";
+        traverser=traverser->next;
+    }
+     
+}
 
