@@ -25,3 +25,19 @@ void printforward(Node* head)
      
 }
 
+
+void printbackward(Node* tail)
+{
+    Node* traverser=tail;
+
+    while (traverser!=nullptr)
+    {
+        cout<<traverser->value<<" ";
+        traverser=traverser->previous;
+    }
+     
+}
+
+
+
+
