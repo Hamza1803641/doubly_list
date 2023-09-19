@@ -35,17 +35,20 @@ node->previous=tail;
 tail->next=node;
 tail=node;  
 
-
+//3rd node
 node=new Node();
 node->value=700;
 node->next=nullptr;
-
 node->previous=tail;
 tail->next=node;
 tail=node;  
 
+
+  //for print list forward
  printforward( head);
   cout<<endl;
+
+  //for print list backwards 
   printbackward( tail);
 
 
