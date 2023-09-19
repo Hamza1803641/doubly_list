@@ -36,6 +36,18 @@ tail->next=node;
 tail=node;  
 
 
+node=new Node();
+node->value=700;
+node->next=nullptr;
+
+node->previous=tail;
+tail->next=node;
+tail=node;  
+
+ printforward( head);
+  cout<<endl;
+  printbackward( tail);
+
 
  
 
